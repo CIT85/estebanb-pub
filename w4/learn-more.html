@@ -6,8 +6,8 @@
         <meta name="description" content="These are the tags I'd like to learn more about">
         <title>Learn More</title>
 
-        <link rel="icon" href="emojiS.png" type="image/x-icon">
-        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="icon" href="img/emojiS.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body>
         <h1>What more can I learn?</h1>
@@ -41,7 +41,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="3">
+                    <td colspan="2">
                         So these 3 tags came in pretty useful (except for div) for week 3.
                     </td>
                 </tr>
@@ -86,7 +86,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="3">
+                <td colspan="2">
                     Honestly, seeing these 3 properties gets me excited for learning and applying CSS more!
                 </td>
             </tr>
@@ -102,8 +102,7 @@
                 <legend>Basic Info</legend>
             <p>
                 <label for="firstName">First Name:</label>
-                <input type="text" name="firstName" id="firstName" placeholder="John" autocomplete="on" required
-                    autofocus>
+                <input type="text" name="firstName" id="firstName" placeholder="John" autocomplete="on" required>
             </p>
             <p>
                 <label for="lastName">Last Name:</label>
@@ -132,35 +131,35 @@
             </p>
             <p>
                 <input type="radio" name="goals" id="n/a" value="n/a">
-                <label for="other">I don't have any goals.</label>
+                <label for="n/a">I don't have any goals.</label>
             </p>
         </fieldset>
         <br>
         <fieldset>
-            <legend>Do you have pets?</legend>
+            <legend>What is the main motivator of your goals?</legend>
             <p>
-                <input type="checkbox" name="pets" id="dog" value="dog">
-                <label for="dog">Dog</label>
+                <input type="checkbox" name="motiv" id="career" value="career">
+                <label for="career">Career</label>
             </p>
             <p>
-                <input type="checkbox" name="pets" id="cat" value="cat">
-                <label for="cat">Cat</label>
+                <input type="checkbox" name="motiv" id="faith" value="faith">
+                <label for="faith">Faith</label>
             </p>
             <p>
-                <input type="checkbox" name="pets" id="fish" value="fish">
-                <label for="fish">Fish</label>
+                <input type="checkbox" name="motiv" id="love" value="love">
+                <label for="love">Love</label>
             </p>
             <p>
-                <input type="checkbox" name="pets" id="otherPet" value="otherPet">
-                <label for="otherPet">Other</label>
+                <input type="checkbox" name="motiv" id="otherMotive" value="otherMotive">
+                <label for="otherMotive">Other</label>
             </p>
         </fieldset>
         <br>
         <fieldset>
-            <legend>Send Me A Note</legend>
-            <label for="message">Your Message</label>
+            <legend>What are some of your goals?</legend>
+            <label for="message">Let 'em know!</label>
             <br>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here :)"></textarea>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Don't be shy :P"></textarea>
         </fieldset>
         <br>
         <button type="submit">Submit</button>
