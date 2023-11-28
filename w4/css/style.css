@@ -1,9 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Slabo+27px&display=swap');
+
 html {
     font-size: 30px;
+
+}
+main {
+    margin: 10%;
+    margin-top: 2%;
+    padding: 5%;
+    background-color: #a78a7f;
+    border-radius: 2%;
 }
 body {
-    background-color: #8C1C13;
+    background-color: #bf4342;
     color: #E7D7C1;
+    font-family: 'Expletus Sans', sans-serif;
+}
+details {
+    cursor: pointer;
+}
+section {
+    background-color: #8C1C13;
+}
+.goals-pics {
+    border-radius: 5%;
+    border: 6px solid #E7D7C1;
+}
+aside {
+    background-color: #735751;
+    background-clip: 40%;
+}
+footer {
+    background-color: #a78a7f;
 }
 table {
     color: #BF4342;
@@ -51,10 +79,10 @@ tfoot {
 }
 
 a {
-    color: #BF4342;
+    color: #f69d9d;
 }
 a:visited {
- color: #c0750d;
+ color: #e03023;
 }
 a:hover, a:focus {
     color: #de5435;
@@ -62,7 +90,61 @@ a:hover, a:focus {
 a:active {
     color: #b64127;
 }
+.sitecolorone {
+    border: 5px solid black;
+    background-color: #8c1c13;
+}
+.sitecolortwo {
+    border: 5px solid black;
+    border-top: none;
+    background-color: #bf4342;
+}
+.sitecolorthree {
+    border: 5px solid black;
+    border-top: none;
+    color: #a78a7f;
+    background-color: #e7d7c1;
+}
+.sitecolorfour {
+    border: 5px solid black;
+    border-top: none;
+    background-color: #a78a7f;
+}
+.sitecolorfive {
+    border: 5px solid black;
+    border-top: none;
+    background-color: #735751;
+}
 
+.tablecolorone {
+    border: 5px solid black;
+    color: #d0e3c4;
+    background-color: #0353a4;
+}
+.tablecolortwo {
+    border: 5px solid black;
+    border-top: none;
+    color: #d0e3c4;
+    background-color: #fb5012;
+}
+.tablecolorthree {
+    border: 5px solid black;
+    border-top: none;
+    color: #d0e3c4;
+    background-color: #9e90a2;
+}
+.tablecolorfour {
+    border: 5px solid black;
+    border-top: none;
+    color: #d0e3c4;
+    background-color: #613a3a;
+}
+.tablecolorfive {
+    border: 5px solid black;
+    border-top: none;
+    color: #613a3a;
+    background-color: #d0e3c4;
+}
 
 .visually-hidden {
     width: 1px;
@@ -70,4 +152,4 @@ a:active {
     margin: -1px;
     padding: 0;
     opacity: 0%;
-  }
+}
